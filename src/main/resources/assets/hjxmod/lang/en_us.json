@@ -44,5 +44,9 @@
   "block.hjxmod.blooddiamond_block": "Blood Diamond Block",
   "block.hjxmod.blooddiamond_ore": "Blood Diamond Ore",
   "block.hjxmod.topaz_block": "Topaz Block",
-  "block.hjxmod.topaz_ore": "Topaz Ore"
+  "block.hjxmod.topaz_ore": "Topaz Ore",
+  "block.hjxmod.ruby_stairs": "\u00A7cRuby Stairs",
+  "block.hjxmod.ruby_button": "\u00A7cRuby Button"
+  "block.hjxmod.ruby_woodlike_pressure_plate": "\u00A7cRuby Woodenlike Pressureplate"
+  
 }
