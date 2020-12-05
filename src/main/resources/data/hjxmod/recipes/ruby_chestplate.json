@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "hjxmod:ruby"
+      }
+    },
+  "result":
+  {
+    "item": "hjxmod:ruby_chestplate",
+    "count": 1
+  }
+}

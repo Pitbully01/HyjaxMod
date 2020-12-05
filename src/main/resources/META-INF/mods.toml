@@ -1,0 +1,26 @@
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]] #mandatory
+modId="hjxmod" #mandatory
+version="1.16.4-0.1.0" #mandatory
+displayName="hyJax Mod" #mandatory
+logoFile="hjxmod.png" #optional
+credits="Malte und Tobi sind die schlimmsten bastarde xD" #optional
+authors="Cederik der Hurensohn, Tobi der bastard, Malte der Spasst " #optional
+description='''
+Erste Versuche
+'''
+[[dependencies.examplemod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[35,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"

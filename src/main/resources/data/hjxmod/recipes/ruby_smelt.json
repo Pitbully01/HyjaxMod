@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "hjxmod:ruby_ore"
+  },
+  "result": "hjxmod:ruby",
+  "experience": 10.0,
+  "cookingtime": 200
+}

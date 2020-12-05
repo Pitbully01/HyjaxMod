@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hjxmod:blooddiamond_block"
+}
+  ],
+  "result":
+  {
+    "item": "hjxmod:blooddiamond",
+    "count": 9
+  }
+}

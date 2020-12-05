@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hjxmod:saphire_block"
+}
+  ],
+  "result":
+  {
+    "item": "hjxmod:saphire",
+    "count": 9
+  }
+}

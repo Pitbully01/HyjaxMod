@@ -1,0 +1,6 @@
+{
+  "parent": "hjxmod:block/ruby_woodlike_pressure_plate_up",
+  "textures": {
+    "texture": "hjxmod:block/ruby_block"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "hjxmod:saphire_ore"
+  },
+  "result": "hjxmod:saphire",
+  "experience": 10.0,
+  "cookingtime": 200
+}

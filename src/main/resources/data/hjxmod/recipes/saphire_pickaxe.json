@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    " s ",
+    " s "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "hjxmod:saphire"
+    },
+    "s":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "hjxmod:saphire_pickaxe",
+    "count": 1
+  }
+}

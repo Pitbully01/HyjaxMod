@@ -1,0 +1,6 @@
+{
+  "parent": "hjxmod:block/ruby_button_inventory",
+  "textures": {
+    "texture": "hjxmod:block/ruby_block"
+  }
+}

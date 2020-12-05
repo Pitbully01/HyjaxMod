@@ -1,0 +1,6 @@
+{
+  "parent": "hjxmod:block/ruby_button",
+  "textures": {
+    "texture": "hjxmod:block/ruby_block"
+  }
+}

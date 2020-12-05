@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "hjxmod:block/ruby_woodlike_pressure_plate"
+    },
+    "powered=true": {
+      "model": "hjxmod:block/ruby_woodlike_pressure_plate_down"
+    }
+  }
+}

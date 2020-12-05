@@ -1,0 +1,6 @@
+{
+  "parent": "hjxmod:block/ruby_fence_inventory",
+  "textures": {
+    "texture": "hjxmod:block/ruby_block"
+  }
+}

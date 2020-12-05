@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx ",
+    "xs ",
+    " s "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "hjxmod:blooddiamond"
+    },
+    "s":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "hjxmod:blooddiamond_axe",
+    "count": 1
+  }
+}
+
+
