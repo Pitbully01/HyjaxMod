@@ -1,11 +1,11 @@
 package de.hyjax.hyjaxmod.util;
 
+import com.sun.jdi.Location;
+
 import de.hyjax.hyjaxmod.HyjaxMod;
 import de.hyjax.hyjaxmod.bases.blocks.BloodDiamondBlock;
 import de.hyjax.hyjaxmod.bases.blocks.BloodDiamondOre;
 import de.hyjax.hyjaxmod.bases.blocks.ButtonBlock;
-import de.hyjax.hyjaxmod.bases.blocks.FenceBlock;
-import de.hyjax.hyjaxmod.bases.blocks.PressurePlateBlockENTITYS;
 import de.hyjax.hyjaxmod.bases.blocks.PressurePlateBlockWOOD;
 import de.hyjax.hyjaxmod.bases.blocks.RubyBlock;
 import de.hyjax.hyjaxmod.bases.blocks.RubyOre;
@@ -15,7 +15,9 @@ import de.hyjax.hyjaxmod.bases.blocks.TopazBlock;
 import de.hyjax.hyjaxmod.bases.blocks.TopazOre;
 import de.hyjax.hyjaxmod.bases.items.MultiBlockItem;
 import de.hyjax.hyjaxmod.bases.items.OreItem;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.PressurePlateBlock.Sensitivity;
 import net.minecraft.block.material.Material;
@@ -41,7 +43,7 @@ public class RegistryHandlerBlocks {
     public static final RegistryObject<Block> SAPHIRE_ORE = BLOCKS.register("saphire_ore", SaphireOre::new);
     public static final RegistryObject<Item> SAPHIRE_ORE_ITEM = ITEMS.register("saphire_ore", () -> new OreItem(SAPHIRE_ORE.get())); 
 	//Ruby Block
-    public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
+    public static final RegistryObject<RubyBlock> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new MultiBlockItem(RUBY_BLOCK.get()));
 	//saphire Block
     public static final RegistryObject<Block> SAPHIRE_BLOCK = BLOCKS.register("saphire_block", RubyBlock::new);
@@ -60,15 +62,19 @@ public class RegistryHandlerBlocks {
     public static final RegistryObject<Item> TOPAZ_ORE_ITEM = ITEMS.register("topaz_ore", () -> new OreItem(TOPAZ_ORE.get()));
     
     // Stairs
-    public static final RegistryObject<Block> RUBY_STAIRS = BLOCKS.register("ruby_stairs", () -> new StairsBlock(RUBY_BLOCK.get()));
+   // public static final RegistryObject<Block> RUBY_STAIRS = BLOCKS.register("ruby_stairs", StairsBlock::new);
+   // public static final RegistryObject<Item> RUBY_STAIRS_ITEM = ITEMS.register("ruby_stairs", () -> new OreItem(RUBY_STAIRS.get()));
     // Fence 
-    public static final RegistryObject<Block> RUBY_FENCE = BLOCKS.register("ruby_fence", () -> new  FenceBlock(RUBY_BLOCK.get()));
+   // public static final RegistryObject<Block> RUBY_FENCE = BLOCKS.register("ruby_fence", () -> new  FenceBlock());
+   // public static final RegistryObject<Item> RUBY_FENCE_ITEM = ITEMS.register("ruby_fence", () -> new OreItem(RUBY_FENCE.get()));
     //Buttons
     public static final RegistryObject<Block> RUBY_BUTTON = BLOCKS.register("ruby_button", () -> new ButtonBlock(RUBY_BLOCK.get()));
+    public static final RegistryObject<Item> RUBY_BUTTON_ITEM = ITEMS.register("ruby_button", () -> new OreItem(RUBY_BUTTON.get()));
     //PressurePlates
     public static final RegistryObject<Block> RUBY_WOOD_PRESSURE_PLATE = BLOCKS.register("ruby_woodlike_pressure_plate", () -> 
-    new PressurePlateBlockWOOD(Sensitivity.EVERYTHING, Block.Properties.create(Material.IRON).hardnessAndResistance(5.0f,6.0f).sound(SoundType.METAL).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
-    public static final RegistryObject<Block> RUBY_ENTITY_PRESSURE_PLATE = BLOCKS.register("ruby_stonelike_pressure_plate", () -> 
-    new PressurePlateBlockENTITYS(Sensitivity.EVERYTHING, Block.Properties.create(Material.IRON).hardnessAndResistance(5.0f,6.0f).sound(SoundType.METAL).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+    		new PressurePlateBlockWOOD(Sensitivity.EVERYTHING, Block.Properties.create(Material.IRON).hardnessAndResistance(5.0f,6.0f).sound(SoundType.METAL).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+    public static final RegistryObject<Item> RUBY_WOOD_PRESSURE_PLATE_ITEM = ITEMS.register("ruby_woodlike_pressure_plate", () -> new OreItem(RUBY_WOOD_PRESSURE_PLATE.get()));
     
 }
+
+

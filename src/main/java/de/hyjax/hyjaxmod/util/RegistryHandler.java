@@ -8,5 +8,6 @@ public class RegistryHandler {
 		RegistryHandlerItems.init();
 		RegistryHandlerProcessing.init();
 		RegistryHandlerTools.init();
+		RegistryHandlerContainer.init();
 	}
 }
