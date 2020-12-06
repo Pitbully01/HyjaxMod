@@ -1,6 +1,7 @@
 package de.hyjax.hyjaxmod.init;
 
 import de.hyjax.hyjaxmod.HyjaxMod;
+import de.hyjax.hyjaxmod.tileentity.DirtChestTileEntity;
 import de.hyjax.hyjaxmod.util.RegistryHandler;
 import de.hyjax.hyjaxmod.util.RegistryHandlerContainer;
 import net.minecraft.tileentity.TileEntityType;
