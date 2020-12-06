@@ -1,6 +1,7 @@
 package de.hyjax.hyjaxmod.init;
 
 import de.hyjax.hyjaxmod.HyjaxMod;
+import de.hyjax.hyjaxmod.container.DirtChestContainer;
 import net.minecraft.inventory.container.ContainerType;
 import net.minecraftforge.common.extensions.IForgeContainerType;
 import net.minecraftforge.fml.RegistryObject;
