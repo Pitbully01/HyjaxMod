@@ -9,9 +9,7 @@ public class OreItem extends BlockItem {
 
 	public OreItem(Block block) {
 		super(block, new Item.Properties().group(HyjaxMod.TAB));
-		
+
 	}
 
 }
-
-

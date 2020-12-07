@@ -1,6 +1,5 @@
 package de.hyjax.hyjaxmod.util;
 
-import com.sun.jdi.Location;
 
 import de.hyjax.hyjaxmod.HyjaxMod;
 import de.hyjax.hyjaxmod.bases.blocks.BloodDiamondBlock;
@@ -9,15 +8,12 @@ import de.hyjax.hyjaxmod.bases.blocks.ButtonBlock;
 import de.hyjax.hyjaxmod.bases.blocks.PressurePlateBlockWOOD;
 import de.hyjax.hyjaxmod.bases.blocks.RubyBlock;
 import de.hyjax.hyjaxmod.bases.blocks.RubyOre;
-import de.hyjax.hyjaxmod.bases.blocks.StairsBlock;
 import de.hyjax.hyjaxmod.bases.blocks.SaphireOre;
 import de.hyjax.hyjaxmod.bases.blocks.TopazBlock;
 import de.hyjax.hyjaxmod.bases.blocks.TopazOre;
 import de.hyjax.hyjaxmod.bases.items.MultiBlockItem;
 import de.hyjax.hyjaxmod.bases.items.OreItem;
-import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.PressurePlateBlock.Sensitivity;
 import net.minecraft.block.material.Material;
